@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100;
+    background-color: #24292d;
+
+    
+}
+.items{
+    position: relative;
+    width:650px;
+    margin: 100px auto;
+    
+}
+.item{
+    margin-bottom: 40px;
+    transition: 0.5s;
+    
+    /*padding: 20px 150px 20px 20px;*/
+    /*background-color: #2f363e;*/
+}
+.item:nth-child(odd){
+    padding:15px 350px 15px 15px ;
+    text-align: right;
+}
+.item:nth-child(even){
+    padding:15px 15px 15px 350px ;
+}
+.items::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: #ffffff;
+    right: 50%;
+}
+.item .dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color:#c8c8c8;
+    position: absolute;
+    left: 49%;
+    
+    
+}
+.item .content{
+    background-color: #2f363e;
+
+    /*background-image: url(vpk.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+ 
+}
+.item .content h4{
+    padding: 10px;
+    /*color: black;*/
+    color: #ffffff;
+    font-weight: 500;
+
+
+}
+.item .content p{
+    padding: 0px 10px 10px 10px;
+    line-height: 1.5em;
+    color: #c8c8c8;
+   /*color: black;*/
+   font-family: 'Times New Roman', Times, serif ;
+}
+
+.item:nth-child(odd) .year{
+    position: relative;
+    left:15px;
+    text-size: 100;
+    color: #eaa023;
+    bottom: 3px;
+}
+.item:nth-child(even) .year{
+    position: relative;
+    right:15px;
+    bottom: 3px;
+    text-size: 100;
+    color: #eaa023;
+}
+.item .content:hover{
+    border:0px none none ;
+    box-shadow: 0px 0px 5px #c8c8c8 , inset 0px 0px 5px #c8c8c8;
+}
+h2{
+    border:1px none none;
+    width: 210px;
+    padding: 10px;
+    position: relative;
+    left: 42%;
+    
+    /*border: 0px none none;*/
+    position: relative;
+    top: 60px;
+    color: antiquewhite;
+    font-weight: 400;
+
+}
+body:hover h2{
+    border: 0px none none;
+    box-shadow: 0px 0px 5px #c8c8c8 , inset 0px 0px 5px #c8c8c8;
+}

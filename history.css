@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font:font-family: 'Poppins', sans-serif; ;
+}
+body{
+    
+    background-image: url('iplll.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(15px);
+}
+.main{
+    color: #dfff00;
+    margin: 100px;
+    
+    background-color: transparent;;
+}
+.ipl h2{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color:   #ffffff;
+}
+.ipl p{
+    line-height:2em;
+    text-indent: 5em;
+    word-spacing: 0.3em;
+}
+.ipl .a h2{
+    color: #bfc0c0;
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    border-bottom: 1px solid #cecece;
+    padding :15px;
+} 

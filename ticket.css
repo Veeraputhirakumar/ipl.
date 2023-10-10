@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+
+
+}
+.summa h2{
+    text-align: center;
+    position:relative;
+    top: 50px;
+    color: #163f65;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: normal;
+}
+body{
+    background-color: #0088cc;
+    /*background-color: black;*/
+}
+.main{
+    display: flex;
+    margin-bottom: 30px;
+    row-gap: 100px;
+
+}
+.main img{
+    width :50%;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.whole{
+    margin: 100px 140px 100px 140px;
+}
+.main .content{
+    /*background-color: #84a4b4;*/
+    border-radius: 5px;
+    /*border: 1px solid;*/
+    margin-left: 20px;
+    padding :15px;
+    width:80%;
+    background-image: url('ipl99.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    backdrop-filter:blur(15px) ;
+    transform: 0.5s;
+}
+.main .content h2{
+    text-align: center;
+    font-style: italic;
+    font-weight:bolder;
+
+}
+.content .c , .e ,h3{
+    position: relative;
+    left: 25px;
+}
+.content .b , .d , .f{
+    position: relative;
+    top: 22px;
+}
+.content button{
+    position: relative;
+    left: 245px;
+    bottom: 15px;
+    padding: 6px;
+}
+.content h3{
+    position: relative;
+    top:10px;
+    /*color: #ffffff;*/
+}
+.content .f{
+    position:relative;
+    top: 34px;
+}
+.content button a{
+    text-decoration: none;
+}
+.content .c , .e{
+    /*color: #1b5d98 ;*/
+}
+.content:hover{
+    box-shadow: 0px 0px 10px #cecece , inset 0px 0px 10px #cecece;
+}
+.main img:hover{
+    box-shadow: 0px 0px 10px #cecece , inset 0px 0px 10px #cecece;
+}

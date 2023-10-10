@@ -1,0 +1,126 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /*background-color: black;*/
+    background-image: url(iplblack.jpg) ;
+background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height:350px;
+    border-radius:8px;
+    border: 2px solid brown;
+    
+    background-color:transparent;
+    transition: 0.5s;
+  
+
+
+}
+
+h2{
+    text-align: center;
+    color:white;
+}
+.input{
+    margin: 20px ;
+}
+.input input{
+    height: 30px;
+    width: 200px;
+    padding:0.5em 0.5em 0.5em 1.5em;
+    color: white;
+    background-color: transparent;
+    border: 2px solid brown;
+    border-radius:5px;
+    transition: 0.5s;
+   
+}
+.input span{
+    position:relative;
+    left: 22px;
+   top:1.5px;
+    font-size: 80%;
+    color: #fff;
+}
+.forget{
+    position: relative;
+    left:10px;
+    bottom:18px;
+    margin: 30px;
+   
+}
+.forget a{
+    color: blue;
+    text-decoration:none;
+    
+}
+button{
+    position:relative;
+    left:40px;
+    bottom: 30px;
+    background-color: transparent;
+    color:saddlebrown;
+    border: 2px solid brown;
+    width: 77%;
+    height: 30px;
+    border-radius:5px ;
+    padding: 0.5em auto;
+    transition: 0.5s;
+}
+.register{
+  
+    position: relative;
+    left:27px;
+    bottom:18px;
+    margin: 10px;
+   
+
+}
+.register p{
+    color: #fff;
+}
+.register p a{
+    color: blue;
+    text-decoration:none;
+}
+.main:hover{
+    border-color: #0ef;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}
+/*.main:hover .input input{
+    border-color: #0ef;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+
+}*/
+button:hover {
+    border-color: #0ef;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+
+}
+.forget a:hover{
+    text-decoration: underline;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+
+.input input:hover{
+    border-color: #0ef;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}

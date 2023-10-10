@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .class{
+            font-size: 100px;
+        }
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url(ipl2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            backdrop-filter: blur(4px);
+
+        }
+        .cover{
+            
+            width: 550px;
+            height: 550px;
+            backdrop-filter: blur(4px);
+            border-radius: 10px;
+            
+            
+            /*background:transparent;*/
+            /*filter: blur(10px);*/
+        }
+        .title{
+            text-align: center;
+            margin: 15px;
+            font-size: 30px;
+            position:relative;
+            top: 115px;
+            color: silver;
+            transition: 0.5s;
+            border: 1px solid none;
+            border-radius: 25px;
+            
+        }
+        .both{
+            display: flex;
+            margin:80px ;
+            
+        }
+        .soft{
+            margin:20px;
+            position: relative;
+            right: 25px;
+            bottom: 50px;
+            top:75px;
+            left: 20px;
+            
+        }
+        .hard{
+            margin: 20px;
+            position: relative;
+            bottom: 50px;
+            top: 75px;
+            left: 55px;
+         
+        }
+        
+        .both .soft li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .both .soft li a:hover{
+            text-decoration: underline;
+            
+        }
+        .both .hard li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .both .hard li a:hover{
+            text-decoration: underline;
+        }
+        .cover:hover .title{
+            box-shadow: 0px 0px 20px lightpink,inset 0px 0px 20px lightpink;
+        }
+        
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="cover">
+        <div class="title">
+            <h3>Indian Premier League</h3>
+        </div>
+        <div class="both">
+            
+                <ul>
+                
+                    <div class="soft"><li><a href="history.html">History of ipl</a></li></div>
+                    <div class="soft"><li><a href="players.html">Teams and players</a></li></div>
+                <div class="soft"><li><a href="cup.html">IPL winners</a></li></div>
+                 <div class="soft"><li><a href="orpu.html">Orange and purple cap holders</a></li></div>
+                    
+                </ul>
+            
+            
+            <ul>
+                <div class="hard"><li  style="word-spacing: 5px;"><a href="#">2023PT</a></li></div>
+                <div class="hard"><li><a href="schedule.html">2023schedule</a></li></div>
+                <div class="hard"><li><a href="records.html">Records</a></li></div>
+                 <div class="hard"><li><a href="ticket.html">Ticketbooking</a></li></div>
+            </ul>
+        </div>
+        
+</body>
+</html>

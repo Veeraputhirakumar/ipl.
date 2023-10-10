@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font:font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /*background-color: black;*/
+    background-image: url('ipl4.webp');
+   /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    top:30px;
+    color:red;
+    
+
+}
+.ipl{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 75px 50px 75px 50px;
+    grid-gap: 3%;
+}  
+.ipl .soft{
+    text-align: center;
+    color: #74e85c;
+}
+.ipl .mi{
+    color: #ffffff;
+    width: 80%;
+    border: 1px solid none;
+    /*background-color: brown
+    transition: 0.5s;;*/
+}
+.ipl .csk{
+    color: #ffffff;
+    position: relative;
+    left: 20px;
+    width: 80%;
+    border: 1px solid none;
+    transition: 0.5s;
+    /*background-image: url(csk2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(10px);*/
+    /*background-color: brown;*/
+}
+.ipl .rcb{
+    color: #ffffff;
+     position: relative;
+    left: 20px;
+    width: 80%;
+    border: 1px solid none;
+    transition: 0.5s;
+    /*background-color: brown;*/
+}
+.ipl .dc{
+    color: #ffffff;
+    width: 80%;
+    border: 1px solid none;
+    transition: 0.5s;
+    /*background-color: brown;*/
+}
+.ipl .gt{
+    color: #ffffff;
+    position: relative;
+    left: 20px;
+    width: 80%;
+    border: 1px solid none;
+    transition: 0.5s;
+    /*background-color: brown;*/
+}
+.ipl .rr{
+    color: #ffffff;
+    position: relative;
+    left: 20px;
+    width: 80%;
+    border: 1px solid none;
+    transition: 0.5s;
+    /*background-color: brown;*/
+}
+.ipl .kkr{
+    color: #ffffff;
+    width: 80%;
+    border: 1px solid none;
+    transition: 0.5s;
+    /*background-color: brown;*/
+}
+.ipl .srh{
+    color: #ffffff;
+    position: relative;
+    left: 20px;
+    width: 80%;
+    border: 1px solid none;
+    transition: 0.5s;
+    /*background-color: brown;*/
+}
+.ipl .pk{
+    color: #ffffff;
+    position: relative;
+    left: 20px;
+    width: 80%;
+    border: 1px solid none;
+    transition: 0.5s;
+    /*background-color: brown;*/
+}
+.ipl .lsg{
+    color: #ffffff;
+    width: 80%;
+    border: 1px solid none;
+    transition: 0.5s;
+    position: relative;
+    left: 116%;
+    /*background-color: brown;*/
+}
+
+.ipl .margin{
+    position: relative;
+    left: 3px;
+}
+.ipl .a{
+    margin: 8px;
+}
+/*.ipl:hover .mi,.csk ,.rcb ,.dc  ,.gt ,.rr ,.pk, .kkr, .srh ,.lsg{
+    border: 1px solid none;
+    box-shadow: 0px 0px 20px #0ef , inset 0px 0px 20px #0ef;
+}*/
+.mi:hover{
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}
+.csk:hover{
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}.rcb:hover{
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}.dc:hover{
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}.gt:hover{
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}.rr:hover{
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}.kkr:hover{
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}.srh:hover{
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}.pk:hover{
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}.lsg:hover{
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0ef , inset 0px 0px 10px #0ef;
+}
